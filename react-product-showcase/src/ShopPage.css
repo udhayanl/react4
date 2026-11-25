@@ -1,0 +1,19 @@
+.shop-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.banner {
+  background: #2c3e50;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  padding-top: 16px;
+}
+.product-card { border: 1px solid #ccc; padding: 16px; }
